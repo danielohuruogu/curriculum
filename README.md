@@ -1,1 +1,1 @@
-# cohort_3
+# BNTA Curriculum Outline
