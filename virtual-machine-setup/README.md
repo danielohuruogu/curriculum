@@ -66,52 +66,52 @@ Sincerely,
 Amazon WorkSpaces
 ```
 ## Update User
-![alt text](/screenshots/Screenshot-2021-09-26-at-20.22.14.png)
+![alt text](screenshots/Screenshot-2021-09-26-at-20.22.14.png)
 
 ## Download Client
-![alt text](/screenshots/Screenshot-2021-09-26-at-20.22.55.png)
-![alt text](/screenshots/Screenshot-2021-09-26-at-20.23.53.png)
+![alt text](screenshots/Screenshot-2021-09-26-at-20.22.55.png)
+![alt text](screenshots/Screenshot-2021-09-26-at-20.23.53.png)
 
 ## Register
-![alt text](/screenshots/Screenshot-2021-09-26-at-13.17.59.png)
+![alt text](screenshots/Screenshot-2021-09-26-at-13.17.59.png)
 
 ## Login to your workspace
-![alt text](/screenshots/Screenshot-2021-09-26-at-13.18.24.png)
-![alt text](/screenshots/Screenshot-2021-09-26-at-13.18.49.png)
-![alt text](/screenshots/Screenshot-2021-09-26-at-13.20.02.png)
+![alt text](screenshots/Screenshot-2021-09-26-at-13.18.24.png)
+![alt text](screenshots/Screenshot-2021-09-26-at-13.18.49.png)
+![alt text](screenshots/Screenshot-2021-09-26-at-13.20.02.png)
 
 # Discord
 ## Register and Login to Discord
 - Click on **Applications/Programming/Discord**
-![alt text](/screenshots/Screenshot-2021-09-24-at-19.53.58.png)
-![alt text](/screenshots/Screenshot-2021-09-26-at-18.44.57.png)
+![alt text](screenshots/Screenshot-2021-09-24-at-19.53.58.png)
+![alt text](screenshots/Screenshot-2021-09-26-at-18.44.57.png)
 
 ## Discord Presence
 Shows what you are editing in VSCode and IntelliJ and supports over 140 of the most popular languages.
 
 Here's an example: 
-![alt text](/screenshots/Screenshot-2021-09-2-at-10.14.52.png)
+![alt text](screenshots/Screenshot-2021-09-2-at-10.14.52.png)
 
 ## VSCODE and Discord Presence
 - Click on **Applications/Programming/Visual Studio Code**
-![alt text](/screenshots/Screenshot-2021-09-24-at-19.53.58.png)
+![alt text](screenshots/Screenshot-2021-09-24-at-19.53.58.png)
 
 - **Install Discord Presence**
-![alt text](/screenshots/Screenshot-2021-09-24-at-19.57.12.png)
+![alt text](screenshots/Screenshot-2021-09-24-at-19.57.12.png)
 
 ## IntelliJ and Discord Presence
 - Click on **Applications/Programming/IntelliJ IDEA**
-![alt text](/screenshots/Screenshot-2021-09-24-at-19.53.58.png)
-![alt text](/screenshots/Screenshot-2021-09-24-at-20.01.17.png)
-![alt text](/screenshots/Screenshot-2021-09-24-at-20.01.27.png)
-![alt text](/screenshots/Screenshot-2021-09-24-at-20.01.35.png)
+![alt text](screenshots/Screenshot-2021-09-24-at-19.53.58.png)
+![alt text](screenshots/Screenshot-2021-09-24-at-20.01.17.png)
+![alt text](screenshots/Screenshot-2021-09-24-at-20.01.27.png)
+![alt text](screenshots/Screenshot-2021-09-24-at-20.01.35.png)
 
 - Click on **Plugins**
-![alt text](/screenshots/Screenshot-2021-09-24-at-20.02.05.png)
+![alt text](screenshots/Screenshot-2021-09-24-at-20.02.05.png)
 
 - Install **Discord Integration**
-![alt text](/screenshots/Screenshot-2021-09-24-at-20.02.27.png)
-![alt text](/screenshots/Screenshot-2021-09-24-at-20.02.40.png)
+![alt text](screenshots/Screenshot-2021-09-24-at-20.02.27.png)
+![alt text](screenshots/Screenshot-2021-09-24-at-20.02.40.png)
 
 
 # Done ✅ 
