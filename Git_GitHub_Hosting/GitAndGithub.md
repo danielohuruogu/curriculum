@@ -1,4 +1,8 @@
-# **Git, GitHub and Hosting**
+<img src="images/BNTA_simple.png" alt="BNTA logo" height=50px/>
+
+# BNTA Course Notes
+
+# Git, GitHub and Hosting Notes
 
 ## I. Git vs. Github
 
