@@ -1,19 +1,23 @@
-## Table Of Contents
+## Table of Contents
 - [What is a Workspace](#what-is-a-workspace)
 - [Your Workspace specs](#your-workspace-specs)
 - [Pre Installed Software and Applications](#pre-installed-software-and-applications)
 - [Workspace Setup](#workspace-setup)
-  - [Follow the instructions on the email sent from **Amazon WorkSpaces**](#follow-the-instructions-on-the-email-sent-from-amazon-workspaces)
-  - [Update User](#update-user)
-  - [Download Client](#download-client)
-  - [Register](#register)
-  - [Login to your workspace](#login-to-your-workspace)
+  * [Follow the instructions on the email sent from **Amazon WorkSpaces**](#follow-the-instructions-on-the-email-sent-from---amazon-workspaces--)
+  * [Update User](#update-user)
+  * [Download Client](#download-client)
+  * [Register](#register)
+  * [Login to your workspace](#login-to-your-workspace)
+- [Terminal and oh-my-zsh](#terminal-and-oh-my-zsh)
+  * [What is the terminal](#what-is-the-terminal)
+  * [oh-my-zsh](#oh-my-zsh)
+  * [oh-my-zsh tetup](#oh-my-zsh-tetup)
 - [Discord](#discord)
-  - [Register and Login to Discord](#register-and-login-to-discord)
-  - [Discord Presence](#discord-presence)
-  - [VSCODE and Discord Presence](#vscode-and-discord-presence)
-  - [IntelliJ and Discord Presence](#intellij-and-discord-presence)
-- [Done ✅](#done-)
+  * [Register and Login to Discord](#register-and-login-to-discord)
+  * [Discord Presence](#discord-presence)
+  * [VSCODE and Discord Presence](#vscode-and-discord-presence)
+  * [IntelliJ and Discord Presence](#intellij-and-discord-presence)
+- [Done ✅](#done--)
 
 # What is a Workspace   
 Amazon WorkSpaces is a fully managed, persistent desktop virtualization service that enables your users to access the data, applications, and resources they need, anywhere, anytime, from any supported device. You can use Amazon WorkSpaces to provision either Windows or Linux desktops in just a few minutes and quickly scale to provide thousands of desktops to workers across the globe. Amazon WorkSpaces is deployed within an Amazon Virtual Private Cloud (VPC), and no user data is stored on the local device. This helps improve the security of user data and reduces your overall risk surface area.
@@ -79,10 +83,19 @@ Amazon WorkSpaces
 ![alt text](screenshots/Screenshot-2021-09-26-at-13.18.49.png)
 ![alt text](screenshots/Screenshot-2021-09-26-at-13.20.02.png)
 
-# ZSH
+# Terminal and oh-my-zsh
+## What is the terminal
+Terminal, also known as command line or console, allow us to accomplish and automate tasks on a computer without the use of a graphical user interface.
+
+## oh-my-zsh
+Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
+
+In a nutshel it provides extra features that the default terminal does not come with.
+
+## oh-my-zsh tetup
 - Open the terminal
 ![alt text](screenshots/Screenshot-2021-09-24-at-19.54.43.png)
-- Type
+- copy and paste the following command 
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -91,14 +104,25 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ![alt text](screenshots/Screenshot-2021-09-28-at-23.55.42.png)
 - Enter your password
 ![alt text](screenshots/Screenshot-2021-09-28-at-23.55.50.png)
-![alt text](screenshots/Screenshot-2021-09-26-at-18.44.57.png)
 ![alt text](screenshots/Screenshot-2021-09-28-at-23.56.15.png)
-
+- Still in the terminal type
+```
+echo 'exec zsh' >> $HOME/.bashrc
+```
+![alt text](screenshots/Screenshot-2021-09-29-at-00.12.31.png)
+- copy and paste the following command 
+```
+cat $HOME/.bashrc
+```
+![alt text](screenshots/Screenshot-2021-09-29-at-00.18.16.png)
+and you should see `exec zsh` at the end of the screen
+![alt text](screenshots/Screenshot-2021-09-29-at-00.18.16.png)
 
 # Discord
 ## Register and Login to Discord
 - Click on **Applications/Programming/Discord**
 ![alt text](screenshots/Screenshot-2021-09-24-at-19.53.58.png)
+![alt text](screenshots/Screenshot-2021-09-26-at-18.44.57.png)
 
 ## Discord Presence
 Shows what you are editing in VSCode and IntelliJ and supports over 140 of the most popular languages.
