@@ -105,12 +105,12 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 - Enter your password
 ![alt text](screenshots/Screenshot-2021-09-28-at-23.55.50.png)
 ![alt text](screenshots/Screenshot-2021-09-28-at-23.56.15.png)
-- Still in the terminal type
+- Still in the terminal copy and paste the following command and press enter 
 ```
 echo 'exec zsh' >> $HOME/.bashrc
 ```
 ![alt text](screenshots/Screenshot-2021-09-29-at-00.12.31.png)
-- copy and paste the following command 
+- copy and paste the following command and press enter
 ```
 cat $HOME/.bashrc
 ```
