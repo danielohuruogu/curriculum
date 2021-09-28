@@ -152,4 +152,6 @@ Shows what you are editing in VSCode and IntelliJ and supports over 140 of the m
 ![alt text](screenshots/Screenshot-2021-09-24-at-20.02.40.png)
 
 # Done ✅ 
-![Alt Text](https://media.giphy.com/media/IwAZ6dvvvaTtdI8SD5/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/IwAZ6dvvvaTtdI8SD5/giphy.gif" alt="npm version">
+</p>
