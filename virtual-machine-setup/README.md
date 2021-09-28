@@ -127,7 +127,7 @@ and you should see `exec zsh` at the end of the screen
 ## Discord Presence
 Shows what you are editing in VSCode and IntelliJ and supports over 140 of the most popular languages.
 
-Here's an example: 
+**Here's an example:**   
 ![alt text](screenshots/Screenshot-2021-09-2-at-10.14.52.png)
 
 ## VSCODE and Discord Presence
