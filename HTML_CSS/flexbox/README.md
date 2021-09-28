@@ -14,6 +14,8 @@ Back in the dark days of the web, everything was built on one axis—the one you
 
 However, with the beginning of the 2010s, the web began to see a shift in how webpage content was encoded. CSS FlexBox, which later inspired `flex`, provided a complete means to creating interesting and responsive designs, or certainly encompassed what was already possible in far fewer lines of code. Dictating simply the parent container of multiple elements as a flex container with `display: flex`, it was now possible to create grid-style layouts with ease.
 
+[CSS Tricks - A Complete Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 ## Flex Properties
 
 ### display: flex
