@@ -404,7 +404,7 @@ _Source(s): <https://www.freecodecamp.org/news/gitignore-what-is-it-and-how-to-a
 
 ---
 
-## VI. Intro to GitHub Pages
+## VI. Intro to GitHub Pages (Hosting)
 
 - You can use GitHub Pages to host a website about yourself, your organization, or your project directly from a GitHub repository.
 - GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub and publishes a website.
