@@ -1,5 +1,4 @@
-# Table Of Contents
-- [Table Of Contents](#table-of-contents)
+## Table Of Contents
 - [What is a Workspace](#what-is-a-workspace)
 - [Your Workspace specs](#your-workspace-specs)
 - [Pre Installed Software and Applications](#pre-installed-software-and-applications)
@@ -80,11 +79,26 @@ Amazon WorkSpaces
 ![alt text](screenshots/Screenshot-2021-09-26-at-13.18.49.png)
 ![alt text](screenshots/Screenshot-2021-09-26-at-13.20.02.png)
 
+# ZSH
+- Open the terminal
+![alt text](screenshots/Screenshot-2021-09-24-at-19.54.43.png)
+- Type
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+![alt text](screenshots/Screenshot-2021-09-28-at-23.55.28.png)
+- type `y` then press `enter` on your keyboard
+![alt text](screenshots/Screenshot-2021-09-28-at-23.55.42.png)
+- Enter your password
+![alt text](screenshots/Screenshot-2021-09-28-at-23.55.50.png)
+![alt text](screenshots/Screenshot-2021-09-26-at-18.44.57.png)
+![alt text](screenshots/Screenshot-2021-09-28-at-23.56.15.png)
+
+
 # Discord
 ## Register and Login to Discord
 - Click on **Applications/Programming/Discord**
 ![alt text](screenshots/Screenshot-2021-09-24-at-19.53.58.png)
-![alt text](screenshots/Screenshot-2021-09-26-at-18.44.57.png)
 
 ## Discord Presence
 Shows what you are editing in VSCode and IntelliJ and supports over 140 of the most popular languages.
