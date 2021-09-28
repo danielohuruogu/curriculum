@@ -1,3 +1,7 @@
+---
+description: Outline of the course
+---
+
 # Bright Network Technology Academy - Course Notes
 
 Welcome to the Bright Network Technology Academy!
