@@ -22,9 +22,9 @@ At the heart of every webpage, you have HTML markup defining the *"What?"* and C
 
 - Avoid applying any global styling. Page resets (*e.g.* [Piccalilli - A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/)) can be incredibly useful and many devs use them, but make sure you know what you are applying and where!
 
-- Make your class names meaningful. Consider using a naming convention (*e.g.* BEM - [http://getbem.com/naming/]()) across your site to organise your classes and make them accesibile to someone new to your code
+- Make your class names meaningful. Consider using a naming convention (*e.g.* BEM - [http://getbem.com/naming/]()) across your site to organise your classes and make them accessible to someone new to your code
 
-- Make the location of your CSS code make sense. If you are working on a project with mutliple CSS files, make sure that each file is clearly labelled so that they can be understood by both your teammates and people who are new to your code. This is especially important later when you look at React and begin component-based webpage construction
+- Make the location of your CSS code make sense. If you are working on a project with multiple CSS files, make sure that each file is clearly labelled so that they can be understood by both your teammates and people who are new to your code. This is especially important later when you look at React and begin component-based webpage construction
 
 
 ## CSS Selectors
@@ -61,7 +61,7 @@ There are more selectors than you will find in the following lists, however thes
 	
 - `[attribute=value]`
 
-	By specifying the value of the attribute, you can gain further control on what elements you are selecting. This is again incredibly useful for when you are using custom HTML attributes. You could, using the same example as before, make your retractable menu switch between `visibility: hidden` and `visibility: visible` by selecting only when `data-active="true"`—a key detail when coding for accesibility
+	By specifying the value of the attribute, you can gain further control on what elements you are selecting. This is again incredibly useful for when you are using custom HTML attributes. You could, using the same example as before, make your retractable menu switch between `visibility: hidden` and `visibility: visible` by selecting only when `data-active="true"`—a key detail when coding for accessibility
 
 ### Combinations
 
@@ -87,10 +87,10 @@ There are more selectors than you will find in the following lists, however thes
 	
 - `element1 + element2`
 
-	The additon symbol is used to select the elements of type `element2` which occur directly after each of type `element1`
+	The addition symbol is used to select the elements of type `element2` which occur directly after each of type `element1`
 	
 
-### Psuedo-classes
+### Pseudo-classes
 
 [MDN - Pseudo-Classes and Pseudo-Elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)
 
@@ -100,7 +100,7 @@ All CSS pseudo-classes start with a single colon `:`. You can think of these as 
 
 - `:hover`
 
-	Is active when the item is targetted by the mouse
+	Is active when the item is targeted by the mouse
 
 - `:focus`
 
@@ -144,7 +144,7 @@ There are more pseudo-classes than in the list above, we have simply highlighted
 
 [https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements]()
 
-All CSS pseudo-elements start with a double colon `::` and represent a specific region within an established element. They act as if they have added in a new HTML element to your markup. There are around 16 psuedo-elements listed in the MDN documentation, many of which are experimental. Each have their own niche use, and some may find themselves at home within certain designs, however we are only going to cover two of the most important pseudo-elements here: `::before` and `::after`:
+All CSS pseudo-elements start with a double colon `::` and represent a specific region within an established element. They act as if they have added in a new HTML element to your markup. There are around 16 pseudo-elements listed in the MDN documentation, many of which are experimental. Each have their own niche use, and some may find themselves at home within certain designs, however we are only going to cover two of the most important pseudo-elements here: `::before` and `::after`:
 
 - `::before`
 
@@ -154,7 +154,7 @@ All CSS pseudo-elements start with a double colon `::` and represent a specific 
 
 	Reflection of the `::before` element, the `::after` pseudo-element selects the region immediately following the specified element.
 	
-Pseudo-eleements are incredibly powerful when used correctly, and can often help tidy up your markup. Their use-case, however, isn't always the most obvious. The below CSS Tricks article outlines seven ways you may use pseudo-elements:
+Pseudo-elements are incredibly powerful when used correctly, and can often help tidy up your markup. Their use-case, however, isn't always the most obvious. The below CSS Tricks article outlines seven ways you may use pseudo-elements:
 
 [https://css-tricks.com/7-practical-uses-for-the-before-and-after-pseudo-elements-in-css/]()
 
