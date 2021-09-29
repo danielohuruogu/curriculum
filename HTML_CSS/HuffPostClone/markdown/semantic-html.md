@@ -1,4 +1,4 @@
-<img src="./images/BNTA_simple.png" alt="BNTA logo" height=50px/>
+<img src="../images/BNTA_simple.png" alt="BNTA logo" height=50px/>
 
 # Use The Right HTML Elements - Semantic HTML
 
