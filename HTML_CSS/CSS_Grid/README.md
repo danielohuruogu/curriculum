@@ -6,13 +6,13 @@
 
 ### Introduction
 
-You have already seen how flexbox containers can be used to create responsive and clean components for your webpage. Flexbox, however, does have it's limitations and you may at somepoint be in want of a true **two-dimentional** means to organising your webpage content. This is where CSS Grid comes into play. By first setting up a system of rows and columns, you can then define where each component part sits in two dimensions, helping you build more complicated designs.
+You have already seen how flexbox containers can be used to create responsive and clean components for your webpage. Flexbox, however, does have it's limitations and you may at some-point be in want of a true **two-dimensional** means to organising your webpage content. This is where CSS Grid comes into play. By first setting up a system of rows and columns, you can then define where each component part sits in two dimensions, helping you build more complicated designs.
 
 ### CSS Grid
 
 Many of the tools provided to us as web developers are more than initially meets the eye and this is true for CSS Grid. At first glance, you may think that Grid is simply a means to lining up some items within a section; however, Grid exists at more levels than that of a simple component. Entire sites can be built up a Grid at the base level (*e.g.* applying `display: grid` to the `<body>` of a webpage), and while this is uncommon, largely owing to how recently Grid was implemented fully, we may see this become part of a trend in the coming years.
 
-As you read through this document, you may start to recognise some similarties between Flexbox and CSS Grid. I take this opportunity however to highlight that while both can be used for similar effects on your webpage, the two are intrinsically different. The difference in use-case is subtle, with Grid largely eclipsing Flexbox, however if you ask yourself "Do I want this content to statically sit beneath this other content, regardless of changing screen size?" then you glimpse the power of Grid.
+As you read through this document, you may start to recognise some similarities between Flexbox and CSS Grid. I take this opportunity however to highlight that while both can be used for similar effects on your webpage, the two are intrinsically different. The difference in use-case is subtle, with Grid largely eclipsing Flexbox, however if you ask yourself "Do I want this content to statically sit beneath this other content, regardless of changing screen size?" then you glimpse the power of Grid.
 
 [CSS Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
@@ -40,7 +40,7 @@ Definition of the ***explicit grid*** and the automatic organisation of the cont
 
 [https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns]()
 
-To define the number and size of the tracks within the ***explicit*** grid we use `grid-template-columns` and `grid-template-rows`. Both properties accept a list of space-separated values defining each track, in order. You can also optionally name the beginning placement of each space by enclosing the name within *[square brackets]* between the relavent tracks in the template declaration. (*e.g.* `grid-template-columns: [grid_start] 100px [column2-name] 100px [col3-start] 100px`) If the track is not explicitly given a name then it will be assigned one based on its index, **from index 1**.
+To define the number and size of the tracks within the ***explicit*** grid we use `grid-template-columns` and `grid-template-rows`. Both properties accept a list of space-separated values defining each track, in order. You can also optionally name the beginning placement of each space by enclosing the name within *[square brackets]* between the relevant tracks in the template declaration. (*e.g.* `grid-template-columns: [grid_start] 100px [column2-name] 100px [col3-start] 100px`) If the track is not explicitly given a name then it will be assigned one based on its index, **from index 1**.
 
 <img src="images/CSSgrid-grid-templates.png" alt="CSS Grid display examples" width=400px/>
 
@@ -48,7 +48,7 @@ There are a few handy pieces of notation which substantially bolster the usabili
 
 - Fractional units (fr)
 
-	Fracitional units are incredibly useful when creating a grid template as they allow you to easily create tracks with sizes equal, or proprtional to, one-another. They are used in the form: `grid-template-columns: 1fr 2fr 1fr`; with the Grid template assignment properties. Note here that the second column would fill double the space of the first and third columns. When using fractional units alongside static unit declarations, such as those in pixel or rem, the ratio of the fractional units defines the distribution of the ***remaining free space*** in the grid complex. 
+	Fractional units are incredibly useful when creating a grid template as they allow you to easily create tracks with sizes equal, or proportional to, one-another. They are used in the form: `grid-template-columns: 1fr 2fr 1fr`; with the Grid template assignment properties. Note here that the second column would fill double the space of the first and third columns. When using fractional units alongside static unit declarations, such as those in pixel or rem, the ratio of the fractional units defines the distribution of the ***remaining free space*** in the grid complex. 
 	
 <img src="images/CSSgrid-repeat-minmax.png" alt="CSS Grid repeat and minmax" width=400px/>
 
@@ -62,7 +62,7 @@ There are a few handy pieces of notation which substantially bolster the usabili
 
 [https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas]()
 
-Another property which we can use to organise our grid structure prior to the addition of content is `grid-template-areas`. Through the use of a collection of strings, we can define discrete areas which we can later refer to, to better organise our content without worrying about which column or row to point towards. Each row is defined within a block quote (within a set of `"` quotes), with the area name provided for each cell. An empty cell is denoted with a fullstop `.`. Your area declaration must be rectangular to be valid. Note that the grid lines between regions are automatically generated as ***nameOfArea-start*** and ***nameOfArea-end***. This means that each grid-line may have multiple names, any of which you may use.
+Another property which we can use to organise our grid structure prior to the addition of content is `grid-template-areas`. Through the use of a collection of strings, we can define discrete areas which we can later refer to, to better organise our content without worrying about which column or row to point towards. Each row is defined within a block quote (within a set of `"` quotes), with the area name provided for each cell. An empty cell is denoted with a full-stop `.`. Your area declaration must be rectangular to be valid. Note that the grid lines between regions are automatically generated as ***nameOfArea-start*** and ***nameOfArea-end***. This means that each grid-line may have multiple names, any of which you may use.
 
 <img src="images/CSSgrid-template-areas.png" alt="CSS Grid template areas" width=400px/>
 
@@ -106,7 +106,7 @@ A `grid-template` property exists which encompasses the `grid-template-columns`,
 
 [https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns]()
 
-`grid-auto-column` and `grid-auto-row` are two properties which relate to the ***implicit grid***. When an item is placed in this implicit grid, either by being positioned out-of-bounds or simply by the grid expanding to accomodate a growing number of items, then this item's track bounds are set by these properties. The default value is `auto` which aligns with the minimum width required to accomodate the largest item in the implicit track.
+`grid-auto-column` and `grid-auto-row` are two properties which relate to the ***implicit grid***. When an item is placed in this implicit grid, either by being positioned out-of-bounds or simply by the grid expanding to accommodate a growing number of items, then this item's track bounds are set by these properties. The default value is `auto` which aligns with the minimum width required to accommodate the largest item in the implicit track.
 
 
 ### gap
@@ -127,9 +127,9 @@ The spacing between items in the total grid (implicit and explicit grids) can be
 
 Now that we have defined the means to set up our grid structure, we can consider how we affect the placement of Grid items within said grid. By default, Grid items will organise themselves into the explicit grid in the order left-right, top-bottom relative to the order in the HTML markup. Providing that each item is of equal size, then the resulting grid will be regular and ordered.
 
-There are times, however, when we want something more exciting than a simple array of regularly-sized items. For instance, perhaps we would like some items to span a number of rows or columns—an action with would disrupt the usual ordering of the grid and likely cause gaps to appear. Applied to the grid container, `grid-auto-flow` can be used to override this ordering on an overall but by-item basis to better align with what you want from your content:
+There are times, however, when we want something more exciting than a simple array of regularly-sized items. For instance, perhaps we would like some items to span a number of rows or columns—an action with would disrupt the usual ordering of the grid and likely cause gaps to appear. Applied to the grid container, `grid-auto-flow` can be used to override this ordering on an overall but by-item basis to better align the organisation with what you want from your content:
 
-- `grid-auto-flow: row` is the default value for `grid-auto-flow` and will organise the grid items in left-right top-bottom fashion. Positions in the grid which cannot accomoThe grid will expand to add extra rows as needed.
+- `grid-auto-flow: row` is the default value for `grid-auto-flow` and will organise the grid items in left-right top-bottom fashion. The grid will expand to add extra rows as needed.
 
 - `grid-auto-flow: column` organises the grid items in top-bottom left-right order. This means that it attempts to fill a column before moving on to the next one. The grid will expand to add extra columns as needed.
 
@@ -146,7 +146,7 @@ There are times, however, when we want something more exciting than a simple arr
 
 [https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column]()
 
-If you require a bit more control over the position or relative size of your grid items, then there are a selection of properties you can set. Many of these properties make use of a new piece of syntax: `span`. The `span` syntax is handy for when you know the exact placement of your grid item(s). Coupled with either a positive integer number or a line name, the `span` syntax can be use to assign the space for a grid item with ease. If a line name is provided as the value following `span` then the grid item spans across all tracks until it hits the line specifed.
+If you require a bit more control over the position or relative size of your grid items, then there are a selection of properties you can set. Many of these properties make use of a new piece of syntax: `span`. The `span` syntax is handy for when you know the exact placement of your grid item(s). Coupled with either a positive integer number or a line name, the `span` syntax can be use to assign the space for a grid item with ease. If a line name is provided as the value following `span` then the grid item spans across all tracks until it hits the line specified.
 
 - `grid-column-start` defines the starting column placement for the grid item by specifying the ***line name*** of where it is to start. The use of the `span` syntax (*e.g.* `grid-column-start: 1 span 2`) may invalidate the need for the following `grid-column-end` property
 
@@ -174,12 +174,19 @@ It should be noted that `justify-content`, `align-content` and their related `pl
 
 ## Practice
 
-TO DO : Mondrian Assignment
+As with everything, new topics make more sense once we get hands-on and start practising. There are a couple tasks we are recommending you spend some time with to practice using CSS Grid. The first is the CSS Grid compliment to Flexbox Froggy, CSS Grid Garden, where the aim is to water your crops and poison weeds by specifying the CSS Grid properties and values needed. 
+
+[CSS Grid Garden game](https://cssgridgarden.com/)
+
+The second task allows you a bit more hands-on experience. In this task, we are asking you to construct a portion of a Piet Mondrian painting using only HTML and CSS. You can use either local files or a site such as [CodePen](https://codepen.io/) for this exercise. If you feel like you want a higher degree of accuracy than eye-balling the image will allow then under the Firebox Developer Tools section, you can toggle the *"Measure a portion of the page"* option for access to an browser ruler. You may find opening the image in a new tab may help.
+
+(Thank you to Jen Kramer for the inspiration of this practice exercise)
 
 <img src="images/mondrian1a.png" alt="Mondrian 1 A" width=400px/>
 
-<img src="images/mondrian1b.png" alt="Mondrian 1 B" width=400px/>
+Start with the above example with only four blocks and then attempt the second image for further practice.
 
+<img src="images/mondrian1b.png" alt="Mondrian 1 B" width=400px/>
 
 ## Further Reading
 
@@ -188,4 +195,6 @@ TO DO : Mondrian Assignment
 [CSS Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 [Free Code Camp - A Beginner’s Guide to CSS Grid](https://www.freecodecamp.org/news/a-beginners-guide-to-css-grid-3889612c4b35/)
+
+[https://learncssgrid.com/]()
 
