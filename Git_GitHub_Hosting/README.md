@@ -476,10 +476,10 @@ Once you have successfully completed all of the steps, feel free to share your p
 
 ## Afternoon Task Check-in (3:30pm)
 
-- We will ask one or two students to screenshare their team's repo and explain what branches they created and merged.
-- We will then ask a couple of students to share thier hosted GitHub Pages site so that we can all bask in their glory!
-- Lastly, we'll ask if anyone had any issues or if there are any other questions in general.
-- We may then spend a few minutes discussing personal/practical issues we as trainers have ran into in our own team when creating the BNTA Management PLatform App, including how we solved them and what we would do differently next time.
+- One or two students screenshare their team's repo and explain what branches they created and merged.
+- A few students share thier hosted GitHub Pages site so that we can all bask in their glory!
+- Final questions and issues to be sorted.
+- Discuss personal/practical issues trainers have ran into in our own team when creating the BNTA Management Platform App, including how we solved them and what we would do differently next time.
 
 ---
 
