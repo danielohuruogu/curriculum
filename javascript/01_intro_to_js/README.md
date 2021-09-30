@@ -14,7 +14,7 @@ There were some changes, starting with the name. The developers wanted to piggy-
 
 ## JavaScript Outside the Browser
 
-Web browsers include a tool known as a **JavaScript engine** which enables them to execute the code embedded in web pages. [NodeJS](https://nodejs.org/en/) was created to enable developers to run JavaScript code outside of the browser and be used to run files or as tool to test snippets of code. It can be started from anywhere in the terminal by typing `node`.
+Web browsers include a tool known as a **JavaScript engine** which enables them to execute the code embedded in web pages. [NodeJS](https://nodejs.org/en/) was created to enable developers to run JavaScript code outside of the browser and be used to run files or as a tool to test snippets of code. It can be started from anywhere in the terminal by typing `node`.
 
 From here we can write JavaScript and watch it run, but we're a little restricted in what we can do. We have more than enough functionality to let us get to grips with the basics. Let's start by writing some text, also known as a **String**:
 
